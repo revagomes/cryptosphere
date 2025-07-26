@@ -12,8 +12,8 @@ gem 'http',         github: 'tarcieri/http'
 gem 'jruby-openssl', platform: 'jruby'
 
 group :development do
-  gem 'coveralls', require: false
-  gem 'guard-rspec'
+  gem 'coveralls', '>= 0.7.1', require: false
+  gem 'guard-rspec', '>= 4.0.4'
   gem 'pry'
 end
 
